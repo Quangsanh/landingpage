@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LaunchPage-Creative Landing Page </title>
     <link rel="stylesheet" href="./assets/css/index.css">
-    <!-- <link rel="stylesheet" href="./assets/fonts/themify-icons.css"> -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
 </head>
 
@@ -15,6 +14,7 @@
     <!-- header -->
     <div class="header">
         <div class="head">
+
             <div class="logo">LaunchPage</div>
             <nav class="nav">
                 <ul>
@@ -27,6 +27,7 @@
                     <li><a href="">Pricing</a></li>
                     <li class="button"><button>Get Started</button></li>
                 </ul>
+
 
         </div>
     </div>
@@ -43,7 +44,7 @@
                             deserunt etimus quis autem nets lorem entimus velis netsad.</p>
                         <div class="what-video">
                             <div class="home-video">
-                                <a href="https://www.youtube.com/watch?v=FPfQMVf4vwQ" class="home-videoicon">
+                                <a href="https://www.youtube.com/watch?v=FPfQMVf4vwQ" class="popup4 home-videoicon">
                                     <i class="fas fa-play"></i>
                                 </a>
                             </div>
@@ -61,11 +62,18 @@
                         </div>
                         <!-- register form -->
                         <form class="register-form" action="">
+                            <i style="padding-left:20px;position: absolute;font-size:25px; transform:translateY(75%)"
+                                class="fa-regular fa-user"></i>
                             <input class="register-input company" required="" name="register_names"
                                 placeholder="Company Name*" type="text">
+                            <i style="padding-left:20px;position: absolute;font-size:25px; transform:translateY(75%)"
+                                class="fa-regular fa-envelope"></i>
+
 
                             <input class="register-input name-email white-input" required="" name="register_email"
                                 placeholder="Email Adress*" type="email">
+                            <i style="padding-left:20px;position: absolute;font-size:25px; transform:translateY(75%)"
+                                class="fa fa-pencil-alt"></i>
 
                             <select class="register-input white-input" required="" name="register_ticket">
 
@@ -93,7 +101,7 @@
     <div class="partner-section">
         <div class="container">
 
-            <div class="row">
+            <div class="row partners">
                 <h5 class="partners-title">As featured in:</h5>
                 <img src="https://demo.epic-webdesign.com/tf-launchpage/v1/images/award4a.png" class="partners"
                     alt="image">
@@ -237,13 +245,9 @@
                 </div>
             </div>
             <div class="discover-textright">
-                <img src="https://demo.epic-webdesign.com/tf-launchpage/v1/images/about2.jpg" alt="">
-                <!--
-                       <img src="https://demo.epic-webdesign.com/tf-launchpage/v1/images/about5.jpg" alt="">
-                       <img src="https://demo.epic-webdesign.com/tf-launchpage/v1/images/about1.jpg" alt=""> 
-                    
-                    học js đã
-                    -->
+                <img src="https://demo.epic-webdesign.com/tf-launchpage/v1/images/about2.jpg" class="top-margins-images"
+                    alt="">
+
             </div>
 
         </div>
@@ -433,6 +437,7 @@
 
         </div>
         <div class="Fivepic">
+            <span class="creative"></span>
             <div class="Twopic">
                 <div class="first">
                     <img src="https://demo.epic-webdesign.com/tf-launchpage/v1/images/gallery1.jpg" alt="">
@@ -512,7 +517,6 @@
 
                             <p>Graduating with a degree in Spanish, English and French, she has always loved writing.
                             </p>
-
                         </div>
                     </div>
                 </div>
@@ -891,18 +895,13 @@
 
                                 <form id="contact-form" class="row contact-form contact" action="php/contact.php"
                                     method="post">
-
-
                                     <div class="col-md-6">
-
                                         <input class="contact-input" required="" name="contact_names"
                                             placeholder="Your Name*" type="text">
 
                                         <input class="contact-input" required="" name="contact_phone"
                                             placeholder="Phone Number*" type="text">
-
                                     </div>
-
                                     <div class="col-md-6">
 
                                         <input class="contact-input" required="" name="contact_email"
@@ -915,46 +914,58 @@
                                             <option value="Individual">Individual</option>
 
                                             <option value="Corporate">Corporate</option>
-
                                         </select>
-
                                     </div>
-
                                     <div class="col-md-12">
-
                                         <textarea class="contact-input" rows="2" cols="20" name="contact_message"
                                             placeholder="Your Message..."></textarea>
-
                                         <input value="Get In Touch" class="contact-submit" type="submit">
-
                                     </div>
-
-
                                 </form>
-
-
                             </div>
-
-
                         </div>
-
-
                     </div>
-
                 </div>
-
             </div>
-
         </section>
         <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
 
+                        <p>© 2020 <span class="template-name">LaunchPage</span>. Designed by <a
+                                href="https://themeforest.net/user/epic-themes/portfolio?ref=Epic-Themes"
+                                target="_blank">Epic-Themes</a></p>
+                    </div>
+                    <div class="col-md-2"></div>
+                    <div class="col-md-5">
+
+                        <ul class="footer_social">
+
+                            <li>Follw us:</li>
+
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+
+                            <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+
+                            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+
+                            <li><a href="#"><i class="fab fa-skype"></i></a></li>
+
+                            <li><a href="#"><i class="fab fa-dribble"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
 
 
 
 
 
-
 </body>
+<script src="./assets/js/index.js"></script>
 
-</html>
+</html
